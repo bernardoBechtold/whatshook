@@ -10,7 +10,7 @@ app.use(logger("dev"));
 app.use(bodyParser.json());
 
 app.get("/", function (req, res) {
-  res.send("Hello World");
+  res.send("Hello World ✨");
 });
 
 app.get("/webhooks", (req, res) => {

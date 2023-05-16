@@ -4,7 +4,7 @@
   "description": "receive webhooks from whatsapp",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && nodemon src/app.js",
+    "start": "nodemon src/app.ts",
     "lint": "eslint . --ext .ts"
   },
   "author": "",
@@ -22,6 +22,7 @@
     "dotenv": "^16.0.3",
     "eslint": "^8.40.0",
     "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
 }
